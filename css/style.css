@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+.wrapper::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.square {
+  float: left;
+  width: 96px;
+  height: 100px;
+  margin: 2px;
+  border: 1px solid #000;
+  background-color: lightgrey;
+  cursor: pointer;
+  line-height: 100px;
+  text-align: center;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
